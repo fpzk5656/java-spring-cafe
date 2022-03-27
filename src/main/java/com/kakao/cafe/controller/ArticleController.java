@@ -21,7 +21,7 @@ public class ArticleController {
     return "qna/form";
   }
 
-  @PostMapping("/qnaList")
+  @PostMapping("/qna")
   public String question(ArticleDTO form) {
     articleService.join(form);
 

@@ -1,5 +1,5 @@
 package com.kakao.cafe.service;
-import com.kakao.cafe.controller.UserForm;
+import com.kakao.cafe.DTO.UserForm;
 import com.kakao.cafe.domain.User;
 import com.kakao.cafe.repository.UserMemoryRepository;
 import com.kakao.cafe.repository.UserRepository;

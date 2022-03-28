@@ -1,14 +1,14 @@
 package com.kakao.cafe.repository;
 
-import com.kakao.cafe.controller.ArticleDTO;
 import com.kakao.cafe.domain.Article;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ArticleMemoryRepository implements ArticleRepository {
 
-  private final ArrayList<Article> store = new ArrayList<>();
+  private final CopyOnWriteArrayList<Article> store = new CopyOnWriteArrayList<>();
 
   @Override
   public Article save(Article article) {

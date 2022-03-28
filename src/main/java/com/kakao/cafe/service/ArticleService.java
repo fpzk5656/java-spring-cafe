@@ -1,6 +1,6 @@
 package com.kakao.cafe.service;
 
-import com.kakao.cafe.controller.ArticleDTO;
+import com.kakao.cafe.DTO.ArticleDTO;
 import com.kakao.cafe.domain.Article;
 import com.kakao.cafe.repository.ArticleRepository;
 import java.util.ArrayList;
